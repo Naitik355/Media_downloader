@@ -1,8 +1,6 @@
 from flask import Flask, render_template, request, send_from_directory, redirect, url_for
 import os
-import browser_cookie3
 import yt_dlp
-import sys
 
 app = Flask(__name__)
 DOWNLOAD_FOLDER = os.path.join(os.getcwd(), 'downloads')
